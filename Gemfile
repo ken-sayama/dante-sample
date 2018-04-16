@@ -39,6 +39,20 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+
+  # dante
+  gem "dante-editor"
+  gem 'underscore-rails'
+  gem 'rails-sanitize-js'
+
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'pry-byebug'
+  gem 'awesome_print'
+  gem 'factory_girl_rails'
+  gem 'pry'
+  gem 'pry-doc'
+  gem 'pry-rails'
 end
 
 group :development do
